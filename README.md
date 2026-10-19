@@ -2,51 +2,55 @@
 
 **Architect of [Exogram.ai](https://exogram.ai)** · **Founder & CEO at [CareerWin.ai](https://careerwin.ai)** · **Author of [The AI Economist](https://theaieconomist.beehiiv.com)**
 
-[![Exogram Live Workspace](https://img.shields.io/badge/Exogram_AI-Personal_Neural_Network_%26_Living_Tiles-6d28d9?style=for-the-badge)](https://exogram.ai/dashboard/chat)
-[![Exogram Protocol RFC](https://img.shields.io/badge/Specification-Exogram_Protocol_v1-059669?style=for-the-badge)](https://github.com/Richard-Ewing/exogram-protocol-rfc)
-[![Exogram Python SDK](https://img.shields.io/badge/SDK-exogram--sdk-2563eb?style=for-the-badge)](https://github.com/Richard-Ewing/exogram-sdk)
-[![CareerWin AI](https://img.shields.io/badge/CareerWin.ai-ATS_Intelligence-0f172a?style=for-the-badge)](https://careerwin.ai)
+[![Exogram Live Workspace](https://img.shields.io/badge/Exogram_AI-Personal_Neural_Network_%26_Living_Tiles-4C2B4B?style=for-the-badge)](https://exogram.ai/dashboard/chat)
+[![Exogram Open-Core SDK](https://img.shields.io/badge/Python_%26_TS_SDK-exogram--sdk-2563eb?style=for-the-badge)](https://github.com/Richard-Ewing/exogram-sdk)
+[![Exogram Protocol RFC](https://img.shields.io/badge/Specification-exogram--protocol--rfc-059669?style=for-the-badge)](https://github.com/Richard-Ewing/exogram-protocol-rfc)
+[![CareerWin AI](https://img.shields.io/badge/CareerWin.ai-ATS_Intelligence-201B20?style=for-the-badge)](https://careerwin.ai)
 
 ---
 
 ### 1. Flagship Architecture: [Exogram.ai](https://exogram.ai) — The Personal Neural Network & Governed AI Workspace
 
-Most conversational AI products wake up with total amnesia on every new chat, dump static walls of Markdown, and rely on a single model endpoint that fails the moment it hits a rate limit.
+Standard conversational AI assistants wake up with total amnesia on every new chat, dump walls of static Markdown instead of executing real work, and lack cryptographic isolation between private personal context and public tool calls.
 
-**[Exogram](https://exogram.ai)** is a unified personal intelligence and work-execution operating system where every layer feeds every other layer in a closed, non-linear loop:
+**[Exogram](https://exogram.ai)** (Master Plan v5) is a personal intelligence and work-execution operating system powered by an **Infinite-Hop Personal Neural Network (`Work · People · Life`)**, a **Two-Tier Privacy Gateway**, **A2UI Composable Living Tiles**, and **0.07ms Instinct Action Governance**:
 
 ```text
-┌───────────────────────────────────────────────────────────────────────────────────┐
-│ 1. PERSONAL NEURAL NETWORK (Work · People · Life Spheres)                         │
-│    • OpenViking L0/L1/L2 Progressive Context Pruning & Entity Deduplication       │
-│    • HippoRAG 2 Spectral Personalized PageRank (D⁻¹/² A D⁻¹/²) Hub-Node Damping   │
-│    • 4-Way Reciprocal Rank Fusion (Pinecone Vectors + Lexical + Layer-2 Graph)    │
-└─────────────────────────────────────────┬─────────────────────────────────────────┘
-                                          │ Privacy-Minimized Context Packets
-                                          ▼
-┌───────────────────────────────────────────────────────────────────────────────────┐
-│ 2. 7-LAB SPECIALIST AGENT SWARM & CAPABILITY ROUTER                               │
-│    • Dots (Multi-Hop Memory Walker) · Claude (Strategic & B2B Red-Team)           │
-│    • GrokBot (Adversarial Audit)    · OpenClaw (Live URL & DOM Verification)      │
-│    • Perplexity Sonar (Citations)   · Kimi (Deep Synthesis) · Hermes (Actions)    │
-│    • RouteLLM Capability Gating across Gemini, Groq, Cerebras, SambaNova, NIM     │
-└─────────────────────────────────────────┬─────────────────────────────────────────┘
-                                          │ Dual-Track SSE Stream + Turn Blackboard
-                                          ▼
-┌───────────────────────────────────────────────────────────────────────────────────┐
-│ 3. AG-UI LIVING TILES & EAAP CRYPTOGRAPHIC GOVERNANCE (0.07ms)                    │
-│    • Interactive Living Tiles: action_draft · checklist · decision_matrix · maps  │
-│    • Layer-3 Isolated Generative UI Sandbox + SHA-256 State-Hash Action Gates     │
-└───────────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│ 1. INFINITE-HOP PERSONAL NEURAL NETWORK (Work · People · Life Spheres)               │
+│    • Infinite-Hop Associative Spreading Activation (decay=0.72, 1/√deg hub damping)  │
+│    • HippoRAG 2 Spectral Personalized PageRank (D⁻¹/² A D⁻¹/²) + 4-Way RRF (k=60)    │
+│    • 3-Horizon Episodic Memory (36h TTL · RRULE:FREQ=YEARLY · durable_trait) + Undo  │
+└──────────────────────────────────────────┬───────────────────────────────────────────┘
+                                           │ Laya <15ms Deterministic Fast-Path
+                                           ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│ 2. TWO-TIER INFERENCE GATEWAY & 6 HONEST FIRST-PARTY KERNELS                         │
+│    • PERSONAL -> Paid Gemini 3.8 Flash / 2.5 Pro (Zero Data Retention)               │
+│    • PUBLIC_ONLY -> stripVaultAndPiiFromPublicSubtask + Multi-Lab Free Pool          │
+│    • 6 Honest Kernels: Neural Graph · Generative UI · Live Web & Places Scout        │
+│      Action & Draft · Analytical Synthesis · Grounded Citation (Complete · Cited)    │
+└──────────────────────────────────────────┬───────────────────────────────────────────┘
+                                           │ 8-12 Semantic Tools + AG-UI JSON Patching
+                                           ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│ 3. A2UI COMPOSABLE LIVING TILES & 0.07ms INSTINCT ACTION GOVERNANCE                  │
+│    • Living Tiles: Editorial SVG Diagrams · HyperFrames 30fps Video · Instinct       │
+│      Operator · action_draft · checklist · decision_matrix · curated_places · Undo   │
+│    • Instinct Pre-Mutation Gate + [Approve Step] / [Take Over] + SHA-256 C_tok       │
+└──────────────────────────────────────────┴───────────────────────────────────────────┘
 ```
 
 #### Core Engineering Pillars
-* **Personal Neural Network with Multi-Hop Associative Recall**: Resolves people, active ventures, household context, and historical decisions across `Work`, `People`, and `Life` spheres. Uses **OpenViking L0/L1/L2** clause pruning to strip unrelated composite memory sentences and **HippoRAG 2 Personalized PageRank** hub-node damping so high-degree identity hubs never flood unrelated turns.
-* **7-Specialist Multi-Lab Agent Swarm**: Dispatches parallel domain specialists (`Dots`, `Claude`, `GrokBot`, `OpenClaw`, `Perplexity`, `Kimi`, `Hermes`) under strict per-agent context minimization—web research agents never receive private family or vault records.
-* **AG-UI Turn Blackboard & Living Tiles**: Decouples conversational prose streaming from structured UI synthesis so actionable turns deterministically render interactive **Living Tiles** (`action_draft` 1-click email/message replies, stateful `checklist` boards, `decision_matrix` scorecards, and verified `places_court` maps).
-* **RouteLLM Multi-Provider Pool & Zero Data Retention (ZDR)**: Task-aware capability routing and stateful HTTP 429/503 slot cooldowns across Google Gemini, Anthropic Claude, OpenAI, xAI Grok, GitHub Models, Groq, Cerebras, SambaNova, NVIDIA NIM, and OpenRouter.
+* **Infinite-Hop Personal Neural Network + HippoRAG 2 PPR**: Traverses multi-hop connections across `Work`, `People`, and `Life` using associative spreading activation ($\text{decay}=0.72$, $1/\sqrt{\text{deg}}$ hub damping), spectral Personalized PageRank ($D^{-1/2} A D^{-1/2}$), 3-Horizon Episodic Memory TTLs, Read-Time Scalar Conflict Supersession, and 1-click rollback via `/api/memory/undo`.
+* **Two-Tier Inference Gateway (`PERSONAL` vs. `PUBLIC_ONLY`) & Laya `<15ms` Preflight**: Resolves vault entities and sphere affinity in `<15ms` in-memory (`<= 1.6s` P50 TTFT). Routes `PERSONAL` subtasks exclusively to zero-retention Paid Gemini 3.8 Flash / 2.5 Pro while sanitizing `PUBLIC_ONLY` subtasks via `stripVaultAndPiiFromPublicSubtask`.
+* **6 Honest First-Party Kernels & 8–12 Semantic Tool Selector**: Dispatches `Neural Graph Kernel`, `Generative UI Kernel`, `Live Web & Places Scout`, `Action & Draft Kernel`, `Analytical Synthesis Kernel`, and `Grounded Citation Kernel` over `<= 12` semantically matched tools wrapped in `provenance.untrusted_content`, verifying every citation post-synthesis (`verifyAgentContributionsAgainstTurnOutput`).
+* **A2UI Composable Living Tiles & Instinct Operator (`0.07ms`)**: Renders schema-validated Living Tiles—including **Editorial Plum Mineral SVG Diagrams** (`branded_diagram_tile`), **HyperFrames 30fps Video Briefings** (`hyperframes_video_tile`), and the **Instinct Autonomous Operator** (`instinct_computer_tile`)—governed by `evaluateInstinctPreMutationGate`, `Household` vs. `Work` A2A boundaries, `[Approve Step]` / `[Take Over]` sentinel controls, and SHA-256 state-hash tokens ($C_{tok}$).
 
-Explore the live workspace at **[exogram.ai/dashboard/chat](https://exogram.ai/dashboard/chat)** and read the open specification in **[`exogram-protocol-rfc`](https://github.com/Richard-Ewing/exogram-protocol-rfc)**.
+🚀 **Try it now:**
+* **Live AI Workspace:** **[exogram.ai/dashboard/chat](https://exogram.ai/dashboard/chat)**
+* **Python/TS SDK & FastMCP Server (`pip install exogram` / `uvx mcp-server-exogram --local`):** **[Richard-Ewing/exogram-sdk](https://github.com/Richard-Ewing/exogram-sdk)**
+* **Open Architecture Specification (`RFC-0001`):** **[Richard-Ewing/exogram-protocol-rfc](https://github.com/Richard-Ewing/exogram-protocol-rfc)**
 
 ---
 
@@ -65,8 +69,8 @@ I build software that closes the gap between raw human capability and algorithmi
 
 | Repository / Publication | Focus Area | Link |
 | :--- | :--- | :--- |
-| **`exogram-protocol-rfc`** | Open specification for persistent AI memory graphs, AG-UI Living Tiles, and 0.07ms deterministic action governance. | [GitHub Repo](https://github.com/Richard-Ewing/exogram-protocol-rfc) |
-| **`exogram-sdk`** | Python SDK & FastMCP integration for evaluating, permitting, and auditing autonomous AI agent actions. | [GitHub Repo](https://github.com/Richard-Ewing/exogram-sdk) |
+| **`exogram-sdk`** | Official Python SDK (`pip install exogram`), TypeScript SDK & FastMCP Server (`uvx mcp-server-exogram --local` SQLite WAL + Cloud). | [GitHub Repo](https://github.com/Richard-Ewing/exogram-sdk) |
+| **`exogram-protocol-rfc`** | `RFC-0001`: Open specification for Infinite-Hop Personal Neural Networks, Two-Tier Privacy Routing, A2UI Living Tiles, and Instinct Action Governance. | [GitHub Repo](https://github.com/Richard-Ewing/exogram-protocol-rfc) |
 | **The Negative Carry Code Crisis** | Economic teardown of how unverified AI code generation accelerates enterprise technical debt. | [Read Paper](https://exogram.ai/blog/negative-carry-code-crisis) |
 | **The Verification Penalty** | Why probabilistic LLM-as-a-Judge guardrails fail in production and how deterministic state-hash gates solve it. | [Read Paper](https://exogram.ai/blog/the-verification-penalty) |
 | **The AI Economist** | Weekly analysis on agent systems, compute economics, and software incentives. | [Substack / Beehiiv](https://theaieconomist.beehiiv.com) |
