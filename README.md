@@ -4,8 +4,10 @@
 
 [![Exogram Live Workspace](https://img.shields.io/badge/Exogram_AI-Personal_Neural_Network_%26_Living_Tiles-4C2B4B?style=for-the-badge)](https://exogram.ai/dashboard/chat)
 [![Exogram Open-Core SDK](https://img.shields.io/badge/Python_%26_TS_SDK-exogram--sdk-2563eb?style=for-the-badge)](https://github.com/Richard-Ewing/exogram-sdk)
-[![Exogram Protocol RFC](https://img.shields.io/badge/Specification-exogram--protocol--rfc-059669?style=for-the-badge)](https://github.com/Richard-Ewing/exogram-protocol-rfc)
-[![CareerWin AI](https://img.shields.io/badge/CareerWin.ai-ATS_Intelligence-201B20?style=for-the-badge)](https://careerwin.ai)
+[![CareerWin AI](https://img.shields.io/badge/CareerWin.ai-Open_World_Career_%26_ATS_Engine-0f172a?style=for-the-badge)](https://careerwin.ai)
+[![Shadow ATS Piercer](https://img.shields.io/badge/NPM-shadow--ats--piercer-10b981?style=for-the-badge)](https://github.com/Richard-Ewing/shadow-ats-piercer)
+[![Adversarial Council](https://img.shields.io/badge/Multi--Agent-adversarial--council-ea580c?style=for-the-badge)](https://github.com/Richard-Ewing/adversarial-council)
+[![CareerWin MCP](https://img.shields.io/badge/MCP-careerwin--mcp-4f46e5?style=for-the-badge)](https://github.com/Richard-Ewing/careerwin-mcp)
 
 ---
 
@@ -54,14 +56,49 @@ Standard conversational AI assistants wake up with total amnesia on every new ch
 
 ---
 
-### 2. [CareerWin.ai](https://careerwin.ai) — Authentic Career Intelligence & ATS Engine
+### 2. Flagship Architecture: [CareerWin.ai](https://careerwin.ai) — Open-World Career Compiler, 4-Seat Adversarial Hiring Committee & 380ms ATS Piercer
 
-I build software that closes the gap between raw human capability and algorithmic gatekeepers. **[CareerWin.ai](https://careerwin.ai)** anchors candidate applications to a verified Master Work Record, strips out synthetic AI resume clichés, and automates enterprise ATS portals (Workday, Greenhouse, Lever, iCIMS, Taleo) in 380ms.
+Generic AI resume tools wrap a single prompt around a candidate's file, invent unverified metrics, default every non-tech worker to SaaS buzzwords, and fail silently when browser scripts try to autofill React 18 or Workday Shadow-DOM forms.
 
-* 🛠️ **[Real-Time ATS Resume Scanner](https://careerwin.ai/tools/ats-resume-scanner)** — Audit resumes against real enterprise parser benchmarks.
-* 🚫 **[47 Banned AI Resume Words](https://careerwin.ai/no-ai-buzzwords)** — The exact vocabulary that flags applications as automated spam.
-* 📐 **[Product Manager Altitude Scorer](https://careerwin.ai/tools/pm-altitude-scorer)** — Measure whether your portfolio reflects tactical execution or executive strategy.
-* 🧩 **[CareerWin Chrome Extension](https://chromewebstore.google.com/detail/careerwin-ai-job-applicat/hndikjplphkgdhlkhhflflmfeefkgeaa)** — 1-click tailored application pack generator and DOM autofill.
+**[CareerWin.ai](https://careerwin.ai)** (`v0.2.243` Web | `v5.1.83` Extension) is an evidence-grounded career compilation and ATS execution engine covering all **23 major O\*NET 31.0 and ESCO v1.2.1 occupational families**:
+
+```text
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│ 1. OPEN-WORLD 7-PRIMITIVE OCCUPATION ENGINE & 5D EPISTEMIC GRAPH (O*NET 31 / ESCO)   │
+│    • 7 Work Primitives: Activities · Decisions · Tools · Constraints · Scope         │
+│      Outcomes · Non-Substitutable Statutory Gates (RN, CPA, Red Seal, PE, TS/SCI)    │
+│    • 5D Epistemic Schema + Expected Information Value (EIV) Smart Interview Ranker   │
+└──────────────────────────────────────────┬───────────────────────────────────────────┘
+                                           │ Pre-LLM AST Claim-to-Slot Allocation
+                                           ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│ 2. SECS HALLUCINATION FIREWALL & 4-SEAT ADVERSARIAL HIRING COMMITTEE (2ms Gate)      │
+│    • SECS Grounding Validator (0% Unverified Employer/Credential/Metric Fabrication) │
+│    • 4-Seat Blind Committee: Recruiter · Hiring Manager · Bar Raiser · Comp Chair    │
+│    • <60% Jaccard Echo-Chamber Gate + [ANCHORED] Tags + FLIP Falsifiability Triggers │
+└──────────────────────────────────────────┬───────────────────────────────────────────┘
+                                           │ 4-Gatekeeper Deterministic Verification
+                                           ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│ 3. 5-SURFACE OPPORTUNITY KITS & 380ms SHADOW-DOM / REACT 18 FIBER ATS PIERCER        │
+│    • 5-Surface Kit: Vector PDF · True OOXML .docx · Cover Letter · Outreach · Q&A    │
+│    • Pierces 4-Level Workday ShadowRoots + Resets React 18 Fiber _valueTracker       │
+│    • 5-Point Bedrock Employment Anchor Gate (Zero False-Positive Page Injection)     │
+└──────────────────────────────────────────┴───────────────────────────────────────────┘
+```
+
+#### Core Engineering Pillars
+* **Open-World 23-SOC Occupational Engine (`ONET_31_0_ESCO_1_2_1`)**: Decomposes any role—from Trauma ICU Registered Nurses and Commercial Master Electricians to Staff Distributed Systems Engineers and Public Accounting CPAs—into 7 work primitives with `0.0%` Product Management fallback bias (`45/45` benchmark checks passed).
+* **Behind-Closed-Doors 4-Seat Adversarial Hiring Committee (`ADR-0025`)**: Evaluates candidates across 4 independent seats (`Recruiter Gatekeeper`, `Hiring Manager`, `Bar Raiser`, `Compensation Chair`) enforced by a `2ms` zero-token Jaccard anti-sycophancy audit, `[ANCHORED]` epistemic tags, `FLIP:` falsifiability conditions, and a 3-Form Ruling (`APPLY_NOW`, `APPLY_ONLY_IF`, `DO_NOT_APPLY`).
+* **Pre-LLM AST Compiler & SECS Grounding Firewall (`ADR-0024`)**: Routes all 4 platform surfaces through `CanonicalResumeSchema` and the 4-tier Gemini cascade router (`2.5-flash` -> `2.5-pro` -> `2.5-flash-lite` -> `2.0-flash`), generating single-column vector PDFs and authentic OOXML `.docx` (`PK\x03\x04`) files.
+* **Universal Shadow-DOM & React 18 Fiber ATS Piercer (`v5.1.83`)**: Recursively traverses nested `ShadowRoot` trees across Workday, Greenhouse, Lever, Ashby, iCIMS, and SmartRecruiters, invokes native `HTMLInputElement.prototype.value` setters, and resets React's internal `_valueTracker` so synthetic inputs never wipe on form submission.
+
+🚀 **Explore CareerWin & Open-Source Packages:**
+* **Live Platform & 10-Stage Interactive Tour:** **[careerwin.ai](https://careerwin.ai)** · **[careerwin.ai/how-it-works](https://careerwin.ai/how-it-works)**
+* **Architecture & Visual Showcase Repo:** **[Richard-Ewing/careerwin](https://github.com/Richard-Ewing/careerwin)**
+* **Shadow-DOM & React 18 Fiber ATS Piercer (`npx shadow-ats-piercer`):** **[Richard-Ewing/shadow-ats-piercer](https://github.com/Richard-Ewing/shadow-ats-piercer)**
+* **Zero-Token Multi-Agent Anti-Sycophancy Auditor (`npx adversarial-council`):** **[Richard-Ewing/adversarial-council](https://github.com/Richard-Ewing/adversarial-council)**
+* **Model Context Protocol Server (`npx careerwin-mcp`):** **[Richard-Ewing/careerwin-mcp](https://github.com/Richard-Ewing/careerwin-mcp)**
 
 ---
 
@@ -69,6 +106,10 @@ I build software that closes the gap between raw human capability and algorithmi
 
 | Repository / Publication | Focus Area | Link |
 | :--- | :--- | :--- |
+| **`careerwin`** | Architecture showcase, 10-stage product visual walkthrough, O\*NET 31.0 / ESCO v1.2.1 7-Primitive Career Engine & 4-Gatekeeper benchmarks. | [GitHub Repo](https://github.com/Richard-Ewing/careerwin) |
+| **`shadow-ats-piercer`** | Zero-dependency Shadow-DOM traversal, React 18/19 Fiber `_valueTracker` bypass, and 5-Point ATS Employment Anchor detector (`npx shadow-ats-piercer`). | [GitHub Repo](https://github.com/Richard-Ewing/shadow-ats-piercer) |
+| **`adversarial-council`** | `2ms` zero-token anti-sycophancy deliberation protocol for multi-agent LLM swarms (`<60%` Jaccard gate, `FLIP:` triggers, 3-Form Rulings). | [GitHub Repo](https://github.com/Richard-Ewing/adversarial-council) |
+| **`careerwin-mcp`** | Model Context Protocol (MCP) server for Claude Desktop, Cursor, and Antigravity (`resolve_occupation_primitives`, `audit_ats_gatekeepers`, `simulate_hiring_committee`). | [GitHub Repo](https://github.com/Richard-Ewing/careerwin-mcp) |
 | **`exogram-sdk`** | Official Python SDK (`pip install exogram`), TypeScript SDK & FastMCP Server (`uvx mcp-server-exogram --local` SQLite WAL + Cloud). | [GitHub Repo](https://github.com/Richard-Ewing/exogram-sdk) |
 | **`exogram-protocol-rfc`** | `RFC-0001`: Open specification for Infinite-Hop Personal Neural Networks, Two-Tier Privacy Routing, A2UI Living Tiles, and Instinct Action Governance. | [GitHub Repo](https://github.com/Richard-Ewing/exogram-protocol-rfc) |
 | **The Negative Carry Code Crisis** | Economic teardown of how unverified AI code generation accelerates enterprise technical debt. | [Read Paper](https://exogram.ai/blog/negative-carry-code-crisis) |
@@ -79,6 +120,7 @@ I build software that closes the gap between raw human capability and algorithmi
 
 ### Connect
 
+* **CareerWin Platform**: [careerwin.ai](https://careerwin.ai)
 * **Exogram Workspace**: [exogram.ai](https://exogram.ai)
 * **Personal Site**: [richardewing.io](https://www.richardewing.io)
 * **LinkedIn**: [linkedin.com/in/richard-ewing-mba](https://www.linkedin.com/in/richard-ewing-mba)
